@@ -3,6 +3,9 @@
 body {
     font-family: 'Open Sans',
         sans-serif;
+        color: #7581a1;
+        font-size: 16px;
+        line-height: 26px;
 }
 a{
     text-decoration: none;
@@ -35,9 +38,15 @@ h1{
     color: #192b59;
     font-size: 20px;
 }
+.grid-item a{
+    font-size: 14px;
+    color: #1085e4;
+}
 
-
-
+p::first-line {
+    font-weight: bold;
+    font-size  : 1.2em;
+}
 
 
 
