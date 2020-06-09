@@ -34,8 +34,8 @@
 
 <body>
     <div class="page-header">
-        <div class="wrap">
-            <a href=""></a>
+        <div class="wrap box-header">
+            <a href="" class="logo"></a>
             <ul class="nav">
                 <li><a href="" class="nav-item">Home</a></li>
                 <li><a href="" class="nav-item">Features</a></li>
@@ -54,15 +54,16 @@
                 <a href="#" class="btn-secondary">learn more</a>
             </div>
         </div>
+        <div class="screen-img"></div>
     </div>
     <!-- page-header -->
 
     <div class="page-company">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul class="list-company">
+            <li class="list-company-item company-one"></li>
+            <li class="list-company-item company-two"></li>
+            <li class="list-company-item company-three"></li>
+            <li class="list-company-item company-four"></li>
         </ul>
     </div>
     <!-- logos -->
@@ -145,16 +146,18 @@
     <!-- page-grid -->
 
     <div class="page-subscribe">
-        <h2>
-            <span>Subscribe</span>Signup For A Trail
-        </h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quo! Possimus est commodi, inventore
-            exercitationem cupiditate iusto facilis dolore officiis ea fugiat cumque, omnis magnam pariatur facere
-            consectetur in odio.
-        </p>
-        <input type="email" placeholder="Enter your email address">
-        <button type="submit" class="btn-primary">Subscribe</button>
-        <div>
+        <div class="page-subscribe-left">
+            <h2>
+                <span>Subscribe</span>Signup For A Trail
+            </h2>
+            <p>Create your free account now & get 30 days free
+                trail No credit card required
+            </p>
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit" class="btn-primary">Subscribe</button>
+        </div>
+
+        <div class="page-subscribe-right">
             <img src="/img/signup-robot.png" alt="robot">
         </div>
     </div>
@@ -247,8 +250,8 @@
     <!-- page-edit -->
 
     <div class="page-screen">
-        <h2 class="title-h2"><span>screen preview</span>Screenshot With Details</h2>
-        <img src="img/screen.png" alt="">
+        <h2 class="title-40"><span>screen preview</span>Screenshot With Details</h2>
+        <img src="img/screen.png" alt="screen" class="screen">
     </div>
     <!-- page-screen -->
 
@@ -304,11 +307,11 @@
 
     <div class="page-plan">
         <div class="wrap">
-            <h2><span>our plans</span>Pricing Plans</h2>
+            <h2 class="title-40"><span>our plans</span>Pricing Plans</h2>
             <div class="box-price">
-                <div class="box-price-item">
+                <div class="box-price-item decor">
                     <h3>Free</h3>
-                    <p><strong>starter</strong></p>
+                    <p class="first-element"><strong>starter</strong></p>
                     <ul>
                         <li>Unlimited users Active</li>
                         <li>1 GB Bandwidth Speed</li>
@@ -321,7 +324,7 @@
                 </div>
                 <!-- /.box-price-item -->
                 <div class="box-price-item active">
-                    <h3><span>$</span>90/mo</h3>
+                    <h3><span>$</span>90<span class="mo">/mo</span></h3>
                     <p><strong>starter</strong></p>
                     <ul>
                         <li>Unlimited users Active</li>
@@ -334,8 +337,8 @@
                     <a href="" class="btn-primary">choose plan</a>
                 </div>
                 <!-- /.box-price-item -->
-                <div class="box-price-item">
-                    <h3><span>$</span>350/mo</h3>
+                <div class="box-price-item decor">
+                    <h3><span>$</span>350<span class="mo">/mo</span></h3>
                     <p><strong>starter</strong></p>
                     <ul>
                         <li>Unlimited users Active</li>
@@ -408,7 +411,7 @@
     </div>
     <!-- /.footer -->
 
-    
+
 </body>
 
 </html>
